@@ -36,6 +36,9 @@ class User extends AbstractUser
      */
     public $accessTokenResponseBody;
 
+    public $avatar_original;
+    public $profileUrl;
+
     /**
      * Set the token on the user.
      *
